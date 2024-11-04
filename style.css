@@ -1,0 +1,21 @@
+body { font-family: Arial, sans-serif;
+     background-color: #f4f4f4;
+      text-align: center; 
+      background: url(tugas1.jpeg);
+    }
+      
+      .container {
+         width: 80%;
+         max-width: 500px;
+         margin: 0 auto; 
+         background:url(tugas2.jpeg);
+         padding: 20px; border-radius: 10px;
+         box-shadow:whitesmoke;
+         }
+        input, button { 
+        width: 90%; padding: 8px;
+         margin: 8px 0; }
+        button { background-color:rgba(0, 0, 0, 0.1);
+        color: #fff; border: none; 
+         border-radius: 5px; cursor: pointer; }
+        button:hover { background-color: #0056b3; }

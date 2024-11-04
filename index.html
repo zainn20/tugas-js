@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>Hitung Rata-rata Nilai</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Hitung Nilai Rata-rata dan Grade</h2>
+        <label for="subjectCount">Masukkan Jumlah Mata Pelajaran:</label>
+        <input type="number" id="subjectCount" min="1" placeholder="Jumlah mata pelajaran" oninput="updateFields()">
+        
+        <div id="scoreFields"></div>
+        
+        <button onclick="calculateGrades()">Hitung Rata-rata</button>
+        <div id="result"></div>
+    </div>
+</body>
+</html>
